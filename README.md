@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Data Preprocessing
 
-We provide the scipts converting images to lmdb for training. For generating dataset:
+We provide the scripts converting images to lmdb for training.
 
 ```
 python img2lmdb.py --input ${input_img_path} \
@@ -24,7 +24,7 @@ python img2lmdb.py --input ${input_img_path} \
 ```
 
 ## Train Patch-DM
-To initialize semantic code for global style consistency, we need to extract image embedding from CLIP pretrained model first and optimized it during training. The following code will generate initial semantic codes for training.
+To initialize semantic code for global style consistency, we need to extract image embedding from CLIP pretrained model first and optimize it during training. The following code will generate initial semantic codes for training.
 
 ```
 python initialize.py --data_path ${data_path} \
@@ -43,7 +43,7 @@ python train.py --batch_size 64 \
 
 ## Train Latent Model
 
-In our unconditional image generation, a latent diffusion model is trained on optimized semantic code embedding space for providing infinite new global semantic conditions. To train latent model, we directly derive semantic embedding layers from model without additional inference. Code is provided in `train_latent.py`, run following command for training:
+In our unconditional image generation, a latent diffusion model is trained on optimized semantic code embedding space for providing infinite new global semantic conditions. To train latent model, we directly derive semantic embedding layers from model without additional inference. Code is provided in `train_latent.py`, run the following command for training:
 
 ```
 python train_latent.py --name exp_latent \
@@ -77,6 +77,6 @@ python test.py --batch_size 1 \
 
 ## Acknowledgement
 
-This project leverages knowledge from following amazing works:
+This project leverages knowledge from the following amazing works:
 [DiffAE](https://github.com/phizaz/diffae),
 [Guided Diffusion](https://github.com/openai/guided-diffusion).
