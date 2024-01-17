@@ -1,4 +1,4 @@
-# [Patched Denoising Diffusion Models For High-Resolution Image Synthesis](https://arxiv.org/abs/2308.01316) (ICLR 2024)
+# [Patched Denoising Diffusion Models For High-Resolution Image Synthesis (ICLR 2024)](https://arxiv.org/abs/2308.01316) 
 
 Zheng Ding\*, Mengqi Zhang\*, Jiajun Wu, Zhuowen Tu 
 
