@@ -1,6 +1,6 @@
-# [Patched Denoising Diffusion Models For High-Resolution Image Synthesis](https://arxiv.org/abs/2308.01316)
+# [Patched Denoising Diffusion Models For High-Resolution Image Synthesis](https://arxiv.org/abs/2308.01316) (ICLR 2024)
 
-Zheng Ding\*, Mengqi Zhang\*, Jiajun Wu, and Zhuowen Tu 
+Zheng Ding\*, Mengqi Zhang\*, Jiajun Wu, Zhuowen Tu 
 
 ![teaser](figs/teaser.png)
 
@@ -67,11 +67,11 @@ python test.py --batch_size 1 \
 ## Citation
 
 ```
-@article{ding2023patched,
+@inproceedings{ding2024patched,
   title={Patched Denoising Diffusion Models For High-Resolution Image Synthesis},
-  author={Ding, Zheng and Zhang, Mengqi and Wu, Jiajun and Tu, Zhuowen},
-  journal={arXiv preprint arXiv:2308.01316},
-  year={2023}
+  author={Zheng Ding and Mengqi Zhang and Jiajun Wu and Zhuowen Tu},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024}
 }
 ```
 
