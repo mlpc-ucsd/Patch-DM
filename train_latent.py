@@ -20,6 +20,7 @@ if __name__ == '__main__':
     gpus = [0]
     conf.sample_size = 1
     conf.semantic_enc = args.semantic_enc
+    conf.latent_znormalize = False
     conf.pretrain = PretrainConfig(
         name='72M',
         path=model_path,
